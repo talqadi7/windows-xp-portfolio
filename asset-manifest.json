@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/windows-xp-portfolio/static/css/main.47a503cc.css",
-    "main.js": "/windows-xp-portfolio/static/js/main.db1e804d.js",
+    "main.js": "/windows-xp-portfolio/static/js/main.4120ba0c.js",
     "static/js/787.f645bab4.chunk.js": "/windows-xp-portfolio/static/js/787.f645bab4.chunk.js",
     "static/media/windows_xp_background.jpg": "/windows-xp-portfolio/static/media/windows_xp_background.f750f9e06aac2500775b.jpg",
     "index.html": "/windows-xp-portfolio/index.html",
     "static/media/Cursor_15.cur": "/windows-xp-portfolio/static/media/Cursor_15.8631aaabd2cfb34ba958.cur",
     "static/media/CursorsXP.cur": "/windows-xp-portfolio/static/media/CursorsXP.85d4fca447efc91fabb6.cur",
     "main.47a503cc.css.map": "/windows-xp-portfolio/static/css/main.47a503cc.css.map",
-    "main.db1e804d.js.map": "/windows-xp-portfolio/static/js/main.db1e804d.js.map",
+    "main.4120ba0c.js.map": "/windows-xp-portfolio/static/js/main.4120ba0c.js.map",
     "787.f645bab4.chunk.js.map": "/windows-xp-portfolio/static/js/787.f645bab4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47a503cc.css",
-    "static/js/main.db1e804d.js"
+    "static/js/main.4120ba0c.js"
   ]
 }
