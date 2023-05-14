@@ -1,0 +1,159 @@
+.Taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px; /* adjust as needed */
+    background-color: #225EDB; /* dark blue */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+    color: white;
+  }
+
+    .Taskbar .bottomright{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 7%;
+        height: 30px; /* adjust as needed */
+        background-color: #16ADEF; /* dark blue */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0px;
+        color: white;
+        z-index: 1;
+    }
+
+  
+  
+    .Taskbar .start-button {
+        display: flex;
+        align-items: center;
+    }
+
+    .Taskbar .info-button img{
+        width: 20px; /* adjust as needed */
+        height: 20px; /* adjust as needed */
+        padding-left: 8px;
+        padding-top: 2px;
+        transition: transform 0.3s ease;
+    }
+
+    .Taskbar .info-button:hover img {
+      transform: scale(1.1); /* adjust as needed */
+      cursor: url('../public/Cursor_15.cur'), auto;
+    }
+    .Taskbar .info-button:active img {
+        transform: scale(1.5); /* adjust as needed */
+    }
+    .Taskbar .time {
+        /* add styles for the time here */
+        font-family: Tahoma;
+        font-size: small;
+        padding-right: 10px;
+        z-index: 5;
+        cursor: pointer;
+
+    }
+    .Taskbar .time:hover {
+      cursor: url('../public/Cursor_15.cur'), auto;
+    }
+    
+    .Taskbar .folder img{
+        width: 650px; /* adjust as needed */
+        height: 500px; /* adjust as needed */
+        padding-bottom: 900px;
+        padding-left: 300px;
+    }
+
+    .folder {
+        position: relative;
+        /* add other styles as needed */
+      }
+      
+      .folder .close-button {
+        position: absolute;
+        top: 7px; /* adjust as needed */
+        right: 7px; /* adjust as needed */
+        width: 25px; /* adjust as needed */
+        height: 25px; /* adjust as needed */
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      .folder .close-button:hover {
+        cursor: url('../public/Cursor_15.cur'), auto;
+      }
+
+      .folder .link-button-personal {
+        position: absolute;
+        top: 181px; /* adjust as needed */
+        right: 416px; /* adjust as needed */
+        width: 55px; /* adjust as needed */
+        height: 10.5px; /* adjust as needed */
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .folder .link-button-personal:hover {
+        cursor: url('../public/Cursor_15.cur'), auto;
+      }
+
+      .folder .link-button-github {
+        position: absolute;
+        top: 181px; /* adjust as needed */
+        right: 307px; /* adjust as needed */
+        width: 92px; /* adjust as needed */
+        height: 10.5px; /* adjust as needed */
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      .folder .link-button-github:hover {
+        cursor: url('../public/Cursor_15.cur'), auto;
+      }
+
+      .folder .link-button-linkedin {
+        position: absolute;
+        top: 181px; /* adjust as needed */
+        right: 177px; /* adjust as needed */
+        width: 113px; /* adjust as needed */
+        height: 10.5px; /* adjust as needed */
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+
+      .folder .link-button-linkedin:hover {
+        cursor: url('../public/Cursor_15.cur'), auto;
+      }
+      
+      .folder .redirect-button {
+        position: absolute;
+        /* adjust the position as needed */
+        /* add other styles as needed */
+      }
+      
+      .notification {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        background-color: #16ADEF; /* adjust as needed */
+        color: white; /* adjust as needed */
+        opacity: 1;
+        animation: fadeout 3s forwards; /* adjust as needed */
+      }
+      
+      @keyframes fadeout {
+        from { opacity: 1; }
+        to { opacity: 0; }
+      }
+      
+      

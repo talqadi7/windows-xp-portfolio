@@ -1,0 +1,17 @@
+.Desktop {
+    background-image: url('../public/windows_xp_background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+* {
+  cursor: url('../public/CursorsXP.cur'), auto;
+}
+
+a:hover,
+button:hover,
+input[type="submit"]:hover {
+  cursor: url('../public/Cursor_15.cur'), auto;
+}

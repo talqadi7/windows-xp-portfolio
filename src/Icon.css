@@ -1,0 +1,39 @@
+.Icon {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+  }
+  
+.Icon a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  width: 50px; /* adjust as needed */
+  transition: transform 0.5s ease;
+}
+  
+  .Icon a:active img {
+    transform: scale(1.2); /* adjust as needed */
+  }
+  
+  
+  .Icon img {
+    width: 50px; /* adjust as needed */
+    height: 50px; /* adjust as needed */
+    transition: transform 0.5s ease;
+  }
+
+  .Icon img:hover {
+    transform: scale(1.1); /* adjust as needed */
+    cursor: url('../public/Cursor_15.cur'), auto;
+  }
+
+  .Icon p {
+    margin-top: 0px; /* adjust as needed */
+    margin-left: -5px;
+  }
+  
+  
