@@ -61,7 +61,7 @@ function Taskbar() {
                     <button className="link-button-personal" onClick={() => window.open('https://talqadi.com', '_blank')}></button>
                     <button className="link-button-github" onClick={() => window.open('https://github.com/talqadi7', '_blank')}></button>
                     <button className="link-button-linkedin" onClick={() => window.open('https://linkedin.com/in/talqadi7', '_blank')}></button>
-                    <img src="/open_file.png" alt="Folder" />
+                    <img src="open_file.png" alt="Folder" />
                 </div>
             )}
             <div className="time" onClick={toggleTime}>
