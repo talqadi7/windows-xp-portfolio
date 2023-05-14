@@ -4,6 +4,10 @@
 
 In the project directory, you can run:
 
+### `npm run deploy`
+
+Build the application and deploys it to github pages. It can be viewed here: http://talqadi7.github.io/windows-xp-portfolio
+
 ### `npm start`
 
 Runs the app in the development mode.\
