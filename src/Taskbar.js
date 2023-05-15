@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Taskbar.css';
 import { format } from 'date-fns';
 import { utcToZonedTime } from 'date-fns-tz';
@@ -23,26 +23,26 @@ function Taskbar() {
         setNotification(message);
         setKey(prevKey => prevKey + 1);
         if (timeoutId.current) {
-          clearTimeout(timeoutId.current);
+            clearTimeout(timeoutId.current);
         }
         timeoutId.current = setTimeout(() => {
-          setNotification('');
+            setNotification('');
         }, 3000); // adjust as needed
-      };
+    };
 
-      const toggleTime = () => {
+    const toggleTime = () => {
         setIsLocalTime(!isLocalTime);
         updateTime();
         showNotification(isLocalTime ? 'Switched to local time' : 'Switched to Pacific Time');
-      };
+    };
 
-      useEffect(() => {
+    useEffect(() => {
         updateTime();
         const timer = setInterval(updateTime, 1000);
         return () => {
-          clearInterval(timer);
+            clearInterval(timer);
         };
-      }, [isLocalTime]);
+    }, [isLocalTime]);
 
     return (
         <div className="Taskbar">

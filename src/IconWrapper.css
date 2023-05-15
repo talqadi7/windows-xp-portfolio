@@ -1,6 +1,5 @@
 .IconWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 5px; /* adjust as needed */
-  }
-  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
