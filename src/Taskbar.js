@@ -27,7 +27,7 @@ function Taskbar() {
         }
         timeoutId.current = setTimeout(() => {
             setNotification('');
-        }, 3000); // adjust as needed
+        }, 3000);
     };
 
     const toggleTime = () => {
