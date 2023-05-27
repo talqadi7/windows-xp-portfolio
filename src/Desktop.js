@@ -9,7 +9,7 @@ function Desktop() {
     <div className="Desktop">
       <IconWrapper>
       <Icon name="Resume" file="ICON/47.ico" URL="https://docs.google.com/document/d/1lsJXdYxkDOKdSqkepZe19U4hSm71jNho/edit?usp=sharing&ouid=103724823257916244423&rtpof=true&sd=true" />
-        <Icon name="Project 1" file="ICON/22.ico" URL="https://google.com" />
+        <Icon name="LangChain Cover Letter Generator" file="ICON/22.ico" URL="https://github.com/talqadi7/CoverLetterGenerator"/>
         <Icon name="Project 2" file="ICON/22.ico" URL="https://bing.com" />
       </IconWrapper>
 
